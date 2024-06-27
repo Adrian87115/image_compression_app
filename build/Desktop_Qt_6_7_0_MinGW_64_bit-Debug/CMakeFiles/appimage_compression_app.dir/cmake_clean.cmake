@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  ".rcc/qmlcache/appimage_compression_app_Main_qml.cpp"
+  ".rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp"
+  ".rcc/qrc_appimage_compression_app_raw_qml_0.cpp"
+  ".rcc/qrc_qmake_image_compression_app.cpp"
+  "CMakeFiles/appimage_compression_app_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appimage_compression_app_autogen.dir/ParseCache.txt"
+  "appimage_compression_app_autogen"
+  "CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/appimage_compression_app_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/appimage_compression_app_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/main.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/main.cpp.obj.d"
+  "appimage_compression_app.exe"
+  "appimage_compression_app.exe.manifest"
+  "appimage_compression_app.pdb"
+  "appimage_compression_app_autogen/mocs_compilation.cpp"
+  "appimage_compression_app_autogen/timestamp"
+  "appimage_compression_app_qmltyperegistrations.cpp"
+  "image_compression_app/appimage_compression_app.qmltypes"
+  "libappimage_compression_app.dll.a"
+  "meta_types/appimage_compression_app_json_file_list.txt"
+  "meta_types/appimage_compression_app_json_file_list.txt.timestamp"
+  "meta_types/qt6appimage_compression_app_debug_metatypes.json"
+  "meta_types/qt6appimage_compression_app_debug_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appimage_compression_app.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

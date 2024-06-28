@@ -18,6 +18,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj.d"
   "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.obj"
   "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.obj.d"
+  "CMakeFiles/appimage_compression_app.dir/file_input.cpp.obj"
+  "CMakeFiles/appimage_compression_app.dir/file_input.cpp.obj.d"
   "CMakeFiles/appimage_compression_app.dir/main.cpp.obj"
   "CMakeFiles/appimage_compression_app.dir/main.cpp.obj.d"
   "appimage_compression_app.exe"

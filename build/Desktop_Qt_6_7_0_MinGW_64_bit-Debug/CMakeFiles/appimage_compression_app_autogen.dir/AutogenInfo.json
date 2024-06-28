@@ -1023,7 +1023,15 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appimage_compression_app_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/file_input.h",
+			"MU",
+			"EWIEGA46WW/moc_file_input.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_autogen/mocs_compilation.cpp",
@@ -1032,7 +1040,6 @@
 		"MINGW_HAS_SECURE_API=1",
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
-		"QT_NEEDS_QMAIN",
 		"QT_NETWORK_LIB",
 		"QT_OPENGL_LIB",
 		"QT_QMLBUILTINS_LIB",
@@ -1120,6 +1127,11 @@
 	"SETTINGS_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/appimage_compression_app_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/file_input.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp",
 			"MU",

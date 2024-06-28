@@ -1,0 +1,7 @@
+module image_compression_app
+typeinfo appimage_compression_app.qmltypes
+prefer :/image_compression_app/
+Main 1.0 Main.qml
+RightSide 1.0 resources/right_side/RightSide.qml
+LeftSide 1.0 resources/left_side/LeftSide.qml
+

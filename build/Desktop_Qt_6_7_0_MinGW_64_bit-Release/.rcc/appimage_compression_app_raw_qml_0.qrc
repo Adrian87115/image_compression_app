@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/image_compression_app/">
+    <file alias="Main.qml">C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml</file>
+    <file alias="resources/right_side/RightSide.qml">C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml</file>
+    <file alias="resources/left_side/LeftSide.qml">C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml</file>
+    <file alias="qml.qrc">C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/qml.qrc</file>
+  </qresource>
+</RCC>
+

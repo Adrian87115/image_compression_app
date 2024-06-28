@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app
+-cmake-output
+-output-file
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake
+-importPath
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/image_compression_app
+-importPath
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release
+-importPath
+C:/Qt/6.7.0/mingw_64/./qml
+-qrcFiles
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmake_image_compression_app.qrc
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/appimage_compression_app_raw_qml_0.qrc

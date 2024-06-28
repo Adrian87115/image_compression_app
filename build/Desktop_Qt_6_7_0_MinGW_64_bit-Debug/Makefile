@@ -473,6 +473,30 @@ build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.c
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.s
 .PHONY : build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.s
 
+file_input.obj: file_input.cpp.obj
+.PHONY : file_input.obj
+
+# target to build an object file
+file_input.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.obj
+.PHONY : file_input.cpp.obj
+
+file_input.i: file_input.cpp.i
+.PHONY : file_input.i
+
+# target to preprocess a source file
+file_input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.i
+.PHONY : file_input.cpp.i
+
+file_input.s: file_input.cpp.s
+.PHONY : file_input.s
+
+# target to generate assembly for a file
+file_input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.s
+.PHONY : file_input.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -540,6 +564,9 @@ help:
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.obj
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.i
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.s
+	@echo ... file_input.obj
+	@echo ... file_input.i
+	@echo ... file_input.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

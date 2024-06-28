@@ -90,18 +90,18 @@ clean: CMakeFiles/appimage_compression_app_autogen.dir/clean
 # Target rules for target CMakeFiles/appimage_compression_app.dir
 
 # All Build rule for target.
-CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_autogen.dir/all
-CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_qmlimportscan.dir/all
 CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all
 CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_tooling.dir/all
+CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_autogen.dir/all
+CMakeFiles/appimage_compression_app.dir/all: CMakeFiles/appimage_compression_app_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target appimage_compression_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target appimage_compression_app"
 .PHONY : CMakeFiles/appimage_compression_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appimage_compression_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/appimage_compression_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : CMakeFiles/appimage_compression_app.dir/rule
@@ -122,7 +122,7 @@ CMakeFiles/appimage_compression_app.dir/clean:
 CMakeFiles/appimage_compression_app_qmltyperegistration.dir/all: CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_qmltyperegistration.dir\build.make CMakeFiles/appimage_compression_app_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_qmltyperegistration.dir\build.make CMakeFiles/appimage_compression_app_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=20,21,22,23,24 "Built target appimage_compression_app_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=21,22,23,24,25 "Built target appimage_compression_app_qmltyperegistration"
 .PHONY : CMakeFiles/appimage_compression_app_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -330,7 +330,7 @@ CMakeFiles/all_qmllint_module.dir/clean:
 CMakeFiles/appimage_compression_app_tooling.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_tooling.dir\build.make CMakeFiles/appimage_compression_app_tooling.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_tooling.dir\build.make CMakeFiles/appimage_compression_app_tooling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=25 "Built target appimage_compression_app_tooling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=26 "Built target appimage_compression_app_tooling"
 .PHONY : CMakeFiles/appimage_compression_app_tooling.dir/all
 
 # Build rule for subdir invocation for target.
@@ -356,7 +356,7 @@ CMakeFiles/appimage_compression_app_tooling.dir/clean:
 CMakeFiles/appimage_compression_app_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_qmlimportscan.dir\build.make CMakeFiles/appimage_compression_app_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_qmlimportscan.dir\build.make CMakeFiles/appimage_compression_app_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=19 "Built target appimage_compression_app_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=20 "Built target appimage_compression_app_qmlimportscan"
 .PHONY : CMakeFiles/appimage_compression_app_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -379,8 +379,8 @@ CMakeFiles/appimage_compression_app_qmlimportscan.dir/clean:
 # Target rules for target CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir
 
 # All Build rule for target.
-CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all: CMakeFiles/appimage_compression_app_qmlimportscan.dir/all
 CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all: CMakeFiles/appimage_compression_app_tooling.dir/all
+CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all: CMakeFiles/appimage_compression_app_qmlimportscan.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_autogen_timestamp_deps.dir\build.make CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_autogen_timestamp_deps.dir\build.make CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num= "Built target appimage_compression_app_autogen_timestamp_deps"
@@ -409,7 +409,7 @@ CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/clean:
 CMakeFiles/appimage_compression_app_autogen.dir/all: CMakeFiles/appimage_compression_app_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_autogen.dir\build.make CMakeFiles/appimage_compression_app_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_autogen.dir\build.make CMakeFiles/appimage_compression_app_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=18 "Built target appimage_compression_app_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=19 "Built target appimage_compression_app_autogen"
 .PHONY : CMakeFiles/appimage_compression_app_autogen.dir/all
 
 # Build rule for subdir invocation for target.

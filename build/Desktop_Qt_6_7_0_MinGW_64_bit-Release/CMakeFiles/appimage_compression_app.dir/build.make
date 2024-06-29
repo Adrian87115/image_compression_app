@@ -231,11 +231,41 @@ CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Rele
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qrc_qmake_image_compression_app.cpp -o CMakeFiles\appimage_compression_app.dir\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qrc_qmake_image_compression_app.cpp.s
 
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj: CMakeFiles/appimage_compression_app.dir/flags.make
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.cpp
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\getfilepath.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\getfilepath.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\getfilepath.cpp
+
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\getfilepath.cpp > CMakeFiles\appimage_compression_app.dir\getfilepath.cpp.i
+
+CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\getfilepath.cpp -o CMakeFiles\appimage_compression_app.dir\getfilepath.cpp.s
+
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: CMakeFiles/appimage_compression_app.dir/flags.make
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.cpp
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\buttonsignalshandling.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\buttonsignalshandling.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\buttonsignalshandling.cpp
+
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\buttonsignalshandling.cpp > CMakeFiles\appimage_compression_app.dir\buttonsignalshandling.cpp.i
+
+CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\buttonsignalshandling.cpp -o CMakeFiles\appimage_compression_app.dir\buttonsignalshandling.cpp.s
+
 CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj: CMakeFiles/appimage_compression_app.dir/flags.make
 CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj: .rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp
 CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\3a08cfdadd44cef93fcc21a18b9b4084\.rcc\qmlcache\appimage_compression_app_qmlcache_loader.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\3a08cfdadd44cef93fcc21a18b9b4084\.rcc\qmlcache\appimage_compression_app_qmlcache_loader.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_qmlcache_loader.cpp
 
 CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.i: cmake_force
@@ -250,7 +280,7 @@ CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Rele
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj: .rcc/qmlcache/appimage_compression_app_Main_qml.cpp
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_Main_qml.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_Main_qml.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_Main_qml.cpp
 
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.i: cmake_force
@@ -265,7 +295,7 @@ CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimag
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj: .rcc/qmlcache/appimage_compression_app_resources/right_side/RightSide_qml.cpp
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\07d5c9a9c159eb058c768cd2fbf9fe27\appimage_compression_app_resources\right_side\RightSide_qml.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\07d5c9a9c159eb058c768cd2fbf9fe27\appimage_compression_app_resources\right_side\RightSide_qml.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_resources\right_side\RightSide_qml.cpp
 
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.i: cmake_force
@@ -280,7 +310,7 @@ CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimag
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj: .rcc/qmlcache/appimage_compression_app_resources/left_side/LeftSide_qml.cpp
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\07d5c9a9c159eb058c768cd2fbf9fe27\appimage_compression_app_resources\left_side\LeftSide_qml.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\07d5c9a9c159eb058c768cd2fbf9fe27\appimage_compression_app_resources\left_side\LeftSide_qml.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qmlcache\appimage_compression_app_resources\left_side\LeftSide_qml.cpp
 
 CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.i: cmake_force
@@ -295,7 +325,7 @@ CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Rele
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj: .rcc/qrc_appimage_compression_app_raw_qml_0.cpp
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qrc_appimage_compression_app_raw_qml_0.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qrc_appimage_compression_app_raw_qml_0.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\.rcc\qrc_appimage_compression_app_raw_qml_0.cpp
 
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_appimage_compression_app_raw_qml_0.cpp.i: cmake_force
@@ -310,7 +340,7 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA4
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/includes_CXX.rsp
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj: appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj: CMakeFiles/appimage_compression_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj -MF CMakeFiles\appimage_compression_app.dir\appimage_compression_app_autogen\EWIEGA46WW\qrc_qml.cpp.obj.d -o CMakeFiles\appimage_compression_app.dir\appimage_compression_app_autogen\EWIEGA46WW\qrc_qml.cpp.obj -c C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW\qrc_qml.cpp
 
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.i: cmake_force
@@ -327,6 +357,8 @@ appimage_compression_app_OBJECTS = \
 "CMakeFiles/appimage_compression_app.dir/main.cpp.obj" \
 "CMakeFiles/appimage_compression_app.dir/appimage_compression_app_qmltyperegistrations.cpp.obj" \
 "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.obj" \
+"CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj" \
+"CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj" \
 "CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj" \
 "CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj" \
@@ -341,6 +373,8 @@ appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/appimage_c
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/main.cpp.obj
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/appimage_compression_app_qmltyperegistrations.cpp.obj
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.obj
+appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj
+appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/3a08cfdadd44cef93fcc21a18b9b4084/.rcc/qmlcache/appimage_compression_app_qmlcache_loader.cpp.obj
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qmlcache/appimage_compression_app_Main_qml.cpp.obj
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/07d5c9a9c159eb058c768cd2fbf9fe27/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj
@@ -359,7 +393,7 @@ appimage_compression_app.exe: C:/Qt/6.7.0/mingw_64/lib/libQt6Core.a
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/linkLibs.rsp
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/objects1.rsp
 appimage_compression_app.exe: CMakeFiles/appimage_compression_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable appimage_compression_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable appimage_compression_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appimage_compression_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

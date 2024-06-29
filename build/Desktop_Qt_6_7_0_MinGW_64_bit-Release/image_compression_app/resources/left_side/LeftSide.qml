@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 
+
 Item{
     id: itm1
 
@@ -54,18 +55,18 @@ Item{
                 dropAreaBackground.color = "lightgray"
                 dropAreaStatus.text = ""
                 dropAreaContainer.path = ""
+                GetFilePath.setPath("")
             }
             onDropped:{
                 console.log("File dropped")
                 dropAreaBackground.color = "gray"
-                var path = drop.urls.toString();
+                var path = drop.urls.toString().substring(8);
                 dropAreaContainer.path = path
                 dropAreaStatus.text = "Current file: " + dropAreaContainer.path
                 console.log(dropAreaContainer.path)
+                GetFilePath.setPath(dropAreaContainer.path)
             }
         }
     }
-
-
 }
 

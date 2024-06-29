@@ -27,6 +27,8 @@ qt_add_qml_module(appimage_compression_app
         QML_FILES resources/left_side/LeftSide.qml
         RESOURCES
         RESOURCES
+        SOURCES getfilepath.h getfilepath.cpp
+        SOURCES buttonsignalshandling.h buttonsignalshandling.cpp
 )
 
 target_link_libraries(appimage_compression_app

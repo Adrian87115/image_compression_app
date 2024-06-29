@@ -376,4 +376,10 @@ CMakeFiles/appimage_compression_app.dir/main.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtQml/qqmlerror.h \
  C:/Qt/6.7.0/mingw_64/include/QtQml/qqmlabstracturlinterceptor.h \
  C:/Qt/6.7.0/mingw_64/include/QtQml/QQmlContext \
- C:/Qt/6.7.0/mingw_64/include/QtQml/qqmlcontext.h
+ C:/Qt/6.7.0/mingw_64/include/QtQml/qqmlcontext.h \
+ C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\getfilepath.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
+ C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\buttonsignalshandling.h

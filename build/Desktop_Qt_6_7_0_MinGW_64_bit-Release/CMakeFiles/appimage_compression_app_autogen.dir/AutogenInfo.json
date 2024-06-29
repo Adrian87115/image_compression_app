@@ -1024,7 +1024,21 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "appimage_compression_app_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.h",
+			"MU",
+			"EWIEGA46WW/moc_buttonsignalshandling.cpp",
+			null
+		],
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h",
+			"MU",
+			"EWIEGA46WW/moc_getfilepath.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/mocs_compilation.cpp",
@@ -1123,6 +1137,16 @@
 	"SETTINGS_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/CMakeFiles/appimage_compression_app_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp",
 			"MU",

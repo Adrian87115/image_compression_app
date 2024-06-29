@@ -545,6 +545,54 @@ build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.s
 .PHONY : build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.s
 
+buttonsignalshandling.obj: buttonsignalshandling.cpp.obj
+.PHONY : buttonsignalshandling.obj
+
+# target to build an object file
+buttonsignalshandling.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
+.PHONY : buttonsignalshandling.cpp.obj
+
+buttonsignalshandling.i: buttonsignalshandling.cpp.i
+.PHONY : buttonsignalshandling.i
+
+# target to preprocess a source file
+buttonsignalshandling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.i
+.PHONY : buttonsignalshandling.cpp.i
+
+buttonsignalshandling.s: buttonsignalshandling.cpp.s
+.PHONY : buttonsignalshandling.s
+
+# target to generate assembly for a file
+buttonsignalshandling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.s
+.PHONY : buttonsignalshandling.cpp.s
+
+getfilepath.obj: getfilepath.cpp.obj
+.PHONY : getfilepath.obj
+
+# target to build an object file
+getfilepath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj
+.PHONY : getfilepath.cpp.obj
+
+getfilepath.i: getfilepath.cpp.i
+.PHONY : getfilepath.i
+
+# target to preprocess a source file
+getfilepath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.i
+.PHONY : getfilepath.cpp.i
+
+getfilepath.s: getfilepath.cpp.s
+.PHONY : getfilepath.s
+
+# target to generate assembly for a file
+getfilepath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.s
+.PHONY : getfilepath.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -621,6 +669,12 @@ help:
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.obj
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.i
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.s
+	@echo ... buttonsignalshandling.obj
+	@echo ... buttonsignalshandling.i
+	@echo ... buttonsignalshandling.s
+	@echo ... getfilepath.obj
+	@echo ... getfilepath.i
+	@echo ... getfilepath.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c62e35c03cbac417e078.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "image_compression_app",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-951cff1d745af8410176.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-2025ef74197a68700f04.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-29fd7cfd928aeaedc764.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-1e258dd2b393290b217d.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app-Release-704a22129ebcf47170df.json",
+					"name" : "appimage_compression_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_autogen-Release-5684765218732bf269f8.json",
+					"name" : "appimage_compression_app_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_autogen_timestamp_deps-Release-e56b81175aebeffe0f29.json",
+					"name" : "appimage_compression_app_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_qmlimportscan-Release-938efbec53eb3b737c73.json",
+					"name" : "appimage_compression_app_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_qmllint-Release-13e40345c3925b19dda9.json",
+					"name" : "appimage_compression_app_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_qmllint_json-Release-0fef11f9c015c1b69f96.json",
+					"name" : "appimage_compression_app_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_qmllint_module-Release-dd8222d10e2f621cc660.json",
+					"name" : "appimage_compression_app_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_qmltyperegistration-Release-59b06d44996cd0fa67bb.json",
+					"name" : "appimage_compression_app_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appimage_compression_app_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appimage_compression_app_tooling-Release-8011a3a3b2267d1cc96b.json",
+					"name" : "appimage_compression_app_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release",
+		"source" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -20,6 +20,9 @@ ProcessedImage::~ProcessedImage(){
 }
 
 void ProcessedImage::loadImage(string img_name){
+    if(img_name == ""){
+        return;
+    }
     img = new QImage(img_name.c_str());
     if(!img || img->isNull()){
         cerr << "Error: Failed to load image" << endl;
@@ -69,7 +72,7 @@ void ProcessedImage::saveConverted(QImage* img_name, QString path){
         return;
     }
     path.chop(12);
-    path += "_output.jpg";
+    path += "_output.png";
     img_name->save(path);
 }
 
@@ -877,7 +880,6 @@ vector<vector<string>> ProcessedImage::readFromFileEncodedPath(QString path){
         cerr << "Error: Unable to open the file" << endl;
         return encodedData;
     }
-    cout << "opened1";
     string line;
 
     while(getline(infile, line)){
@@ -904,7 +906,6 @@ vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
         cerr << "Error: Unable to open the file" << endl;
         return codes;
     }
-    cout << "opened2";
     string line;
     map<string, int> channel_codes;
 
@@ -932,88 +933,63 @@ vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
     return codes;
 }
 
-void ProcessedImage::readFromFileDimensionsPath(QString path) {
-    // Remove the last 12 characters from the path
+void ProcessedImage::readFromFileDimensionsPath(QString path){
     path.chop(12);
     ifstream infile(path.toStdString() + "_dimensions.txt");
-
-    // Check if the file opened successfully
-    if (!infile.is_open()) {
+    if(!infile.is_open()){
         cerr << "Error: Unable to open the file" << endl;
         return;
     }
-
-    cout << "opened3" << endl;
-
-    // Temporary string to hold each line
     string line;
-
-    // Read and assign each line to the corresponding variable
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         width = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading width" << endl;
         return;
     }
-
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         height = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading height" << endl;
         return;
     }
-
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         num_blocks_x_luminance = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading num_blocks_x_luminance" << endl;
         return;
     }
-
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         num_blocks_y_luminance = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading num_blocks_y_luminance" << endl;
         return;
     }
-
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         num_blocks_x_chrominance = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading num_blocks_x_chrominance" << endl;
         return;
     }
-
-    if (getline(infile, line)) {
+    if(getline(infile, line)){
         num_blocks_y_chrominance = stoi(line);
-    } else {
+    }else{
         cerr << "Error: Unexpected end of file while reading num_blocks_y_chrominance" << endl;
         return;
     }
-
     infile.close();
 }
 
 QImage* ProcessedImage::decodeWithFiles(QString path){
     readFromFileDimensionsPath(path);
-    // read dimensions
     vector<vector<string>> readed_data = readFromFileEncodedPath(path);
-    cout << "done1\n";
     vector<map<string, int>> codes = readFromFileMapPath(path);
-    cout << "done2\n";
     vector<vector<int>> decoded_huffman = HuffmanDecodingFromFile(readed_data, codes);
-    cout << "done3\n";
     vector<vector<int>> rle_decoded = RLEDecode(decoded_huffman);
-    cout << "done4\n";
     vector<vector<vector<vector<int>>>> zigzag_reversed = backToBlocksFromZigzag(rle_decoded);
-    cout << "done5\n";
     vector<vector<vector<vector<int>>>> dct_reversed = reverseDCT(zigzag_reversed);
-    cout << "done6\n";
     vector<vector<vector<int>>> blocks_reversed = reverseBlocks(dct_reversed);
-    cout << "done7\n";
     QImage upscaled = upscaling(blocks_reversed);
-    cout << "done8\n";
     QImage* color_converted = new QImage(YCbCrToRGB(upscaled));
-    cout << "done9\n";
     return color_converted;
 }

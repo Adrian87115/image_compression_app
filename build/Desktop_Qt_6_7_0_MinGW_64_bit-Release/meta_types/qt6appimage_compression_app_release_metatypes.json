@@ -57,6 +57,23 @@
         "classes": [
             {
                 "className": "ConvertImage",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "mode",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "path",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "performConversion",
+                        "returnType": "QString"
+                    }
+                ],
                 "object": true,
                 "qualifiedClassName": "ConvertImage",
                 "superClasses": [
@@ -94,7 +111,7 @@
                         "designable": true,
                         "final": false,
                         "index": 0,
-                        "name": "storedPath",
+                        "name": "stored_path",
                         "notify": "pathChanged",
                         "read": "getPath",
                         "required": false,

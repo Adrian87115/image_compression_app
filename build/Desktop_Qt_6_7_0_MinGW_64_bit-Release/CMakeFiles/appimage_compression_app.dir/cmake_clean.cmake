@@ -36,8 +36,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/appimage_compression_app.dir/main.cpp.obj.d"
   "CMakeFiles/appimage_compression_app.dir/processedimage.cpp.obj"
   "CMakeFiles/appimage_compression_app.dir/processedimage.cpp.obj.d"
-  "CMakeFiles/appimage_compression_app.dir/restoredimage.cpp.obj"
-  "CMakeFiles/appimage_compression_app.dir/restoredimage.cpp.obj.d"
   "appimage_compression_app.exe"
   "appimage_compression_app.exe.manifest"
   "appimage_compression_app.pdb"

@@ -2,6 +2,7 @@
 #define BUTTONSIGNALSHANDLING_H
 
 #include <QObject>
+#include "convertimage.h"
 
 class ButtonSignalsHandling: public QObject{
     Q_OBJECT
@@ -11,12 +12,13 @@ class ButtonSignalsHandling: public QObject{
         explicit ButtonSignalsHandling(QObject *parent = nullptr);
         bool getMode() const;
         Q_INVOKABLE void setMode(bool newMode);
+        QString callConversion(QString path);
 
     signals:
         void modeChanged();
 
     private:
-        bool m_mode; // true - img, false - txt
+        bool mode; // true - img, false - txt
 };
 
 #endif // BUTTONSIGNALSHANDLING_H

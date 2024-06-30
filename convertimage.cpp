@@ -18,22 +18,28 @@ QString ConvertImage::decodeFiles(QString path){
     if(path == ""){
         return "Invalid path";
     }
-    ProcessedImage image("C:/Users/adria/Desktop/tree.png");
+    ProcessedImage image("");
     QImage* decoded_image = image.decodeWithFiles(path);
     image.saveConverted(decoded_image, path);
     delete decoded_image;
     return "Image decoded";
 }
 
-QString ConvertImage::performConversion(bool mode, QString path){
-    if(path == ""){
-        return "Invalid path";
+QString ConvertImage::performConversion(bool mode, QString path) {
+    if(path.isEmpty()){
+        return "Error: Invalid path";
     }
-    QString out;
-    if(mode){
-        out = encodeImage(path);
-    }else{
-        out = decodeFiles(path);
+    try{
+        QString out;
+        if(mode){
+            out = encodeImage(path);
+        }else{
+            out = decodeFiles(path);
+        }
+        return out;
+    }catch(const std::exception& e){
+        return QString("Error: ") + e.what();
+    }catch (...){
+        return "Error: Problem with the input file";
     }
-    return out;
 }

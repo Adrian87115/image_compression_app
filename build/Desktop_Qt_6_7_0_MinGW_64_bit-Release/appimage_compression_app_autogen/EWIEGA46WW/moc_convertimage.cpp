@@ -36,7 +36,11 @@ namespace {
 #ifdef QT_MOC_HAS_STRINGDATA
 struct qt_meta_stringdata_CLASSConvertImageENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSConvertImageENDCLASS = QtMocHelpers::stringData(
-    "ConvertImage"
+    "ConvertImage",
+    "performConversion",
+    "",
+    "mode",
+    "path"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -49,12 +53,18 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSConvertImageENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       0,    0, // methods
+       1,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
        0,       // signalCount
+
+ // methods: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    2,   20,    2, 0x02,    1 /* Public */,
+
+ // methods: parameters
+    QMetaType::QString, QMetaType::Bool, QMetaType::QString,    3,    4,
 
        0        // eod
 };
@@ -67,17 +77,26 @@ Q_CONSTINIT const QMetaObject ConvertImage::staticMetaObject = { {
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSConvertImageENDCLASS_t,
         // Q_OBJECT / Q_GADGET
-        QtPrivate::TypeAndForceComplete<ConvertImage, std::true_type>
+        QtPrivate::TypeAndForceComplete<ConvertImage, std::true_type>,
+        // method 'performConversion'
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>,
+        QtPrivate::TypeAndForceComplete<bool, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QString, std::false_type>
     >,
     nullptr
 } };
 
 void ConvertImage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
-    (void)_o;
-    (void)_id;
-    (void)_c;
-    (void)_a;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<ConvertImage *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: { QString _r = _t->performConversion((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<QString>>(_a[2])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    }
 }
 
 const QMetaObject *ConvertImage::metaObject() const
@@ -96,6 +115,17 @@ void *ConvertImage::qt_metacast(const char *_clname)
 int ConvertImage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
+        _id -= 1;
+    }
     return _id;
 }
 QT_WARNING_POP

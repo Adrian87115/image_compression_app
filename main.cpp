@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     GetFilePath m_getfilepath;
     ButtonSignalsHandling m_signalhandling;
+    ConvertImage m_image_converter;
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/image_compression_app/Main.qml"));
@@ -19,11 +20,12 @@ int main(int argc, char *argv[])
     QQmlContext* context(engine.rootContext());
     context->setContextProperty("GetFilePath", &m_getfilepath);
     context->setContextProperty("ButtonSignalsHandling", &m_signalhandling);
+    context->setContextProperty("ConvertImage", &m_image_converter);
 
-    ConvertImage result1;
-    // QString result2 = result1.performConversion(true, QString::fromStdString("C:/Users/adria/Desktop/sunset.png"));
-    QString result2 = result1.performConversion(false, QString::fromStdString("C:/Users/adria/Desktop/sunset_encoded.txt"));
-    qDebug() << result2;
-    // decoding doesnt work this way, because path to files is not correctly passed, encoding starts when play pressed, in txt mode two paths have to be uploaded
+    // QString result2 = m_image_converter.performConversion(true, QString::fromStdString("C:/Users/adria/Desktop/sunset.png"));
+    // QString result2 = m_image_converter.performConversion(false, QString::fromStdString("C:/Users/adria/Desktop/sunset_encoded.txt"));
+    // qDebug() << result2;
+
     return app.exec();
 }
+// works, until wrong input, then instantly crashes, but still has time to produce cout error

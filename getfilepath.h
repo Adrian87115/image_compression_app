@@ -6,7 +6,7 @@
 
 class GetFilePath: public QObject{
     Q_OBJECT
-    Q_PROPERTY(QString storedPath READ getPath WRITE setPath NOTIFY pathChanged)
+    Q_PROPERTY(QString stored_path READ getPath WRITE setPath NOTIFY pathChanged)
 
     public:
         explicit GetFilePath(QObject *parent = nullptr);

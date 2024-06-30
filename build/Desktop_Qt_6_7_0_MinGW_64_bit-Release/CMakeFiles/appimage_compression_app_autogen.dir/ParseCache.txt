@@ -5,6 +5,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/q23utility.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qalgorithms.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qanystringview.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qarraydata.h
@@ -29,8 +30,11 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qcontainerfwd.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qcontainerinfo.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qcontainertools_impl.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h
@@ -40,14 +44,19 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qgenericatomic.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qglobal.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qglobalstatic.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qhash.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qhashfunctions.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qiodevice.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qiodevicebase.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qiterable.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qiterator.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qlatin1stringview.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qline.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qlist.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qlogging.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmalloc.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmap.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmargins.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmath.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmetacontainer.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qmetatype.h
@@ -60,10 +69,18 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qobjectdefs_impl.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qoverload.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qpair.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qpoint.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qprocessordetection.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qrect.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qrefcount.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qscopedpointer.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qscopeguard.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qset.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qshareddata.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qshareddata_impl.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qsharedpointer.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qsharedpointer_impl.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qsize.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qstringalgorithms.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qstringbuilder.h
@@ -86,6 +103,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtcoreexports.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtdeprecationmarkers.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtenvironmentvariables.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtextstream.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtmetamacros.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtnoop.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtpreprocessorsupport.h
@@ -96,10 +114,50 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtversionchecks.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtypeinfo.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qtypes.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qurl.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qutf8stringview.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qvariant.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qvarlengtharray.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/QImage
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qcolor.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qfont.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qfontinfo.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qfontmetrics.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qicon.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qimage.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qkeysequence.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpaintdevice.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpalette.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpixelformat.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpixmap.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qpolygon.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qregion.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qrgb.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qrgba64.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qtgui-config.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiexports.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiglobal.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qtransform.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsexports.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/algorithm
@@ -115,10 +173,13 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_base.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h
@@ -128,6 +189,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
@@ -135,14 +197,18 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hashtable_policy.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/node_handle.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/parse_numbers.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h
@@ -154,6 +220,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_atomic.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shared_ptr_base.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_function.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algo.h
@@ -189,6 +256,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cmath
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstddef
@@ -198,6 +266,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
@@ -209,9 +278,13 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
@@ -220,11 +293,13 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/numeric
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf
@@ -251,10 +326,14 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/variant
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h
+ mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
  mdp:C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
@@ -298,8 +377,11 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+ mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/moc_predefs.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.h
+ mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h
+ mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h
  mmc:Q_OBJECT

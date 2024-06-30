@@ -665,30 +665,6 @@ processedimage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.s
 .PHONY : processedimage.cpp.s
 
-restoredimage.obj: restoredimage.cpp.obj
-.PHONY : restoredimage.obj
-
-# target to build an object file
-restoredimage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/restoredimage.cpp.obj
-.PHONY : restoredimage.cpp.obj
-
-restoredimage.i: restoredimage.cpp.i
-.PHONY : restoredimage.i
-
-# target to preprocess a source file
-restoredimage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/restoredimage.cpp.i
-.PHONY : restoredimage.cpp.i
-
-restoredimage.s: restoredimage.cpp.s
-.PHONY : restoredimage.s
-
-# target to generate assembly for a file
-restoredimage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/restoredimage.cpp.s
-.PHONY : restoredimage.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -756,9 +732,6 @@ help:
 	@echo ... processedimage.obj
 	@echo ... processedimage.i
 	@echo ... processedimage.s
-	@echo ... restoredimage.obj
-	@echo ... restoredimage.i
-	@echo ... restoredimage.s
 .PHONY : help
 
 

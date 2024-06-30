@@ -22,6 +22,10 @@ Item{
                 anchors.fill: parent
                 onClicked:{
                     console.log("Play button clicked")
+                    console.log(ButtonSignalsHandling.mode)
+                    console.log(GetFilePath.stored_path)
+                    let result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path);
+                    console.log(result)
                 }
                 onPressed: playImg.opacity = 0.7
                 onReleased: playImg.opacity = 1.0

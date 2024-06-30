@@ -1,14 +1,20 @@
 #include "buttonsignalshandling.h"
 
-ButtonSignalsHandling::ButtonSignalsHandling(QObject *parent): QObject(parent), m_mode(true){}
+ButtonSignalsHandling::ButtonSignalsHandling(QObject *parent): QObject(parent), mode(true){}
 
 bool ButtonSignalsHandling::getMode() const{
-    return m_mode;
+    return mode;
 }
 
 void ButtonSignalsHandling::setMode(bool new_mode){
-    if(m_mode == new_mode)
+    if(mode == new_mode)
         return;
-    m_mode = new_mode;
+    mode = new_mode;
     emit modeChanged();
+}
+
+QString ButtonSignalsHandling::callConversion(QString path){
+    ConvertImage temp;
+    QString result = temp.performConversion(mode, path);
+    return result;
 }

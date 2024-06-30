@@ -105,7 +105,7 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 47,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
@@ -500,7 +500,7 @@
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 38,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -857,12 +857,11 @@
 				11,
 				13,
 				15,
-				17,
+				16,
 				18,
 				20,
-				22,
-				23,
-				28
+				21,
+				26
 			]
 		},
 		{
@@ -1062,15 +1061,15 @@
 	"dependencies" : 
 	[
 		{
+			"id" : "appimage_compression_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 75,
 			"id" : "appimage_compression_app_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 77,
 			"id" : "appimage_compression_app_tooling::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "appimage_compression_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
@@ -1215,17 +1214,17 @@
 			"sourceIndexes" : 
 			[
 				0,
-				27,
-				28,
+				25,
+				26,
+				39,
+				40,
 				41,
 				42,
 				43,
 				44,
 				45,
 				46,
-				47,
-				48,
-				49
+				47
 			]
 		},
 		{
@@ -1240,11 +1239,10 @@
 				11,
 				13,
 				15,
-				17,
+				16,
 				18,
 				20,
-				22,
-				23
+				21
 			]
 		},
 		{
@@ -1253,12 +1251,12 @@
 			[
 				2,
 				3,
-				16,
+				14,
+				17,
 				19,
-				21,
-				24,
-				25,
-				26
+				22,
+				23,
+				24
 			]
 		},
 		{
@@ -1268,14 +1266,15 @@
 				6,
 				8,
 				10,
-				12,
-				14
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
+				27,
+				28,
 				29,
 				30,
 				31,
@@ -1285,9 +1284,7 @@
 				35,
 				36,
 				37,
-				38,
-				39,
-				40
+				38
 			]
 		}
 	],
@@ -1373,17 +1370,6 @@
 			"backtrace" : 90,
 			"compileGroupIndex" : 0,
 			"path" : "convertimage.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 90,
-			"path" : "restoredimage.h",
-			"sourceGroupIndex" : 3
-		},
-		{
-			"backtrace" : 90,
-			"compileGroupIndex" : 0,
-			"path" : "restoredimage.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{

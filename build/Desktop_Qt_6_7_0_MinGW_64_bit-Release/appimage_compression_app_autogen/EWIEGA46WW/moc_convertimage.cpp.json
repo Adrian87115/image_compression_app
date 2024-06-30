@@ -2,6 +2,23 @@
     "classes": [
         {
             "className": "ConvertImage",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "mode",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "path",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "performConversion",
+                    "returnType": "QString"
+                }
+            ],
             "object": true,
             "qualifiedClassName": "ConvertImage",
             "superClasses": [

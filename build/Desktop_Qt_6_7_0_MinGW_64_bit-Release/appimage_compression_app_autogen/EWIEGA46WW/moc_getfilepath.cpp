@@ -40,7 +40,7 @@ constexpr auto qt_meta_stringdata_CLASSGetFilePathENDCLASS = QtMocHelpers::strin
     "",
     "setPath",
     "newPath",
-    "storedPath"
+    "stored_path"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -85,7 +85,7 @@ Q_CONSTINIT const QMetaObject GetFilePath::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSGetFilePathENDCLASS_t,
-        // property 'storedPath'
+        // property 'stored_path'
         QtPrivate::TypeAndForceComplete<QString, std::true_type>,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<GetFilePath, std::true_type>,

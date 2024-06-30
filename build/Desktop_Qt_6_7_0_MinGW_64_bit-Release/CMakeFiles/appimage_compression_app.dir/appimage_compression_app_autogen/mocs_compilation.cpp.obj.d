@@ -311,8 +311,6 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/chrono \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
- C:/Qt/6.7.0/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_convertimage.cpp \
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
@@ -402,6 +400,9 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
  C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qtmochelpers.h \
+ C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_convertimage.cpp \
+ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h \
  C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_getfilepath.cpp \
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \

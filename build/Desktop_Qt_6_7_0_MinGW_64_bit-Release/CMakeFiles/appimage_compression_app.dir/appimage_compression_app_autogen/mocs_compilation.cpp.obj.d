@@ -312,18 +312,97 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qtmochelpers.h \
- C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_getfilepath.cpp \
- C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h \
- C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+ C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_convertimage.cpp \
+ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiglobal.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qmargins.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qkeysequence.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qicon.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qsize.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpixmap.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpaintdevice.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qrect.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qpoint.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qcolor.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qrgb.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qshareddata.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpixelformat.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtransform.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpolygon.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qregion.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qline.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qtextstream.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qcontiguouscache.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/climits \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.7.0/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qsharedpointer_impl.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qmap.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qshareddata_impl.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qset.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qhash.h \
- C:/Qt/6.7.0/mingw_64/include/QtCore/qvarlengtharray.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qvarlengtharray.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpalette.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qfont.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qfontmetrics.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qfontinfo.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
+ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/QImage \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qimage.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qiodevice.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qurl.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
+ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_facets.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/fstream \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/codecvt.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fstream.tcc \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/sstream.tcc \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtextformat.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qpen.h \
+ C:/Qt/6.7.0/mingw_64/include/QtGui/qtextoption.h \
+ C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\appimage_compression_app_autogen\EWIEGA46WW/moc_getfilepath.cpp \
+ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h

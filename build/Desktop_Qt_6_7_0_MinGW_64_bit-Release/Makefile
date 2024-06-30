@@ -569,6 +569,30 @@ buttonsignalshandling.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.s
 .PHONY : buttonsignalshandling.cpp.s
 
+convertimage.obj: convertimage.cpp.obj
+.PHONY : convertimage.obj
+
+# target to build an object file
+convertimage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj
+.PHONY : convertimage.cpp.obj
+
+convertimage.i: convertimage.cpp.i
+.PHONY : convertimage.i
+
+# target to preprocess a source file
+convertimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.i
+.PHONY : convertimage.cpp.i
+
+convertimage.s: convertimage.cpp.s
+.PHONY : convertimage.s
+
+# target to generate assembly for a file
+convertimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.s
+.PHONY : convertimage.cpp.s
+
 getfilepath.obj: getfilepath.cpp.obj
 .PHONY : getfilepath.obj
 
@@ -616,6 +640,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+processedimage.obj: processedimage.cpp.obj
+.PHONY : processedimage.obj
+
+# target to build an object file
+processedimage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.obj
+.PHONY : processedimage.cpp.obj
+
+processedimage.i: processedimage.cpp.i
+.PHONY : processedimage.i
+
+# target to preprocess a source file
+processedimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.i
+.PHONY : processedimage.cpp.i
+
+processedimage.s: processedimage.cpp.s
+.PHONY : processedimage.s
+
+# target to generate assembly for a file
+processedimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.s
+.PHONY : processedimage.cpp.s
 
 # Help Target
 help:
@@ -672,12 +720,18 @@ help:
 	@echo ... buttonsignalshandling.obj
 	@echo ... buttonsignalshandling.i
 	@echo ... buttonsignalshandling.s
+	@echo ... convertimage.obj
+	@echo ... convertimage.i
+	@echo ... convertimage.s
 	@echo ... getfilepath.obj
 	@echo ... getfilepath.i
 	@echo ... getfilepath.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... processedimage.obj
+	@echo ... processedimage.i
+	@echo ... processedimage.s
 .PHONY : help
 
 

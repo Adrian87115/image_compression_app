@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "ConvertImage",
+            "object": true,
+            "qualifiedClassName": "ConvertImage",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "convertimage.h",
+    "outputRevision": 68
+}

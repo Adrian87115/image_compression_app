@@ -44,6 +44,8 @@ Item{
                     ButtonSignalsHandling.setMode(false)
                     console.log("Txt button clicked")
                     console.log(ButtonSignalsHandling.mode) // access has to be direct, otherwise it will not work when getMode is used
+                    txtImg.opacity = 0.5
+                    imgIconImg.opacity = 1.0
                 }
                 onPressed: txtImg.opacity = 0.7
                 onReleased: txtImg.opacity = 1.0
@@ -59,6 +61,7 @@ Item{
             width: parent.width * 0.5
             fillMode: Image.PreserveAspectFit
             source: "qrc:/resources/img/img_icon_white.png"
+            opacity: 0.5
             MouseArea{
                 id: imgIconArea
                 anchors.fill: parent
@@ -66,6 +69,8 @@ Item{
                     ButtonSignalsHandling.setMode(true)
                     console.log("Img button clicked")
                     console.log(ButtonSignalsHandling.mode)
+                    txtImg.opacity = 1.0
+                    imgIconImg.opacity = 0.5
                 }
                 onPressed: imgIconImg.opacity = 0.7
                 onReleased: imgIconImg.opacity = 1.0

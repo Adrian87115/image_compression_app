@@ -38,8 +38,6 @@ constexpr auto qt_meta_stringdata_CLASSButtonSignalsHandlingENDCLASS = QtMocHelp
     "ButtonSignalsHandling",
     "modeChanged",
     "",
-    "txtMode",
-    "imgMode",
     "setMode",
     "newMode",
     "mode"
@@ -55,31 +53,27 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSButtonSignalsHandlingENDCLASS[] 
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
-       1,   44, // properties
+       2,   14, // methods
+       1,   30, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       3,       // signalCount
+       1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   38,    2, 0x06,    2 /* Public */,
-       3,    0,   39,    2, 0x06,    3 /* Public */,
-       4,    0,   40,    2, 0x06,    4 /* Public */,
+       1,    0,   26,    2, 0x06,    2 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-       5,    1,   41,    2, 0x02,    5 /* Public */,
+       3,    1,   27,    2, 0x02,    3 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
 
  // methods: parameters
-    QMetaType::Void, QMetaType::Bool,    6,
+    QMetaType::Void, QMetaType::Bool,    4,
 
  // properties: name, type, flags
-       7, QMetaType::Bool, 0x00015103, uint(0), 0,
+       5, QMetaType::Bool, 0x00015103, uint(0), 0,
 
        0        // eod
 };
@@ -97,10 +91,6 @@ Q_CONSTINIT const QMetaObject ButtonSignalsHandling::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<ButtonSignalsHandling, std::true_type>,
         // method 'modeChanged'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'txtMode'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'imgMode'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'setMode'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         QtPrivate::TypeAndForceComplete<bool, std::false_type>
@@ -115,9 +105,7 @@ void ButtonSignalsHandling::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         (void)_t;
         switch (_id) {
         case 0: _t->modeChanged(); break;
-        case 1: _t->txtMode(); break;
-        case 2: _t->imgMode(); break;
-        case 3: _t->setMode((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
+        case 1: _t->setMode((*reinterpret_cast< std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -126,20 +114,6 @@ void ButtonSignalsHandling::qt_static_metacall(QObject *_o, QMetaObject::Call _c
             using _t = void (ButtonSignalsHandling::*)();
             if (_t _q_method = &ButtonSignalsHandling::modeChanged; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
-                return;
-            }
-        }
-        {
-            using _t = void (ButtonSignalsHandling::*)();
-            if (_t _q_method = &ButtonSignalsHandling::txtMode; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 1;
-                return;
-            }
-        }
-        {
-            using _t = void (ButtonSignalsHandling::*)();
-            if (_t _q_method = &ButtonSignalsHandling::imgMode; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
-                *result = 2;
                 return;
             }
         }
@@ -183,13 +157,13 @@ int ButtonSignalsHandling::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 2;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 2;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
@@ -203,17 +177,5 @@ int ButtonSignalsHandling::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 void ButtonSignalsHandling::modeChanged()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
-}
-
-// SIGNAL 1
-void ButtonSignalsHandling::txtMode()
-{
-    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
-}
-
-// SIGNAL 2
-void ButtonSignalsHandling::imgMode()
-{
-    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 QT_WARNING_POP

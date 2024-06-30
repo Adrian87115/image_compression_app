@@ -1,7 +1,6 @@
 #include "getfilepath.h"
 
-GetFilePath::GetFilePath(QObject *parent){
-}
+GetFilePath::GetFilePath(QObject *parent){}
 
 QString GetFilePath::getPath() const{
     return stored_path;

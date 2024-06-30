@@ -41,7 +41,9 @@ Item{
                 id: txtImgArea
                 anchors.fill: parent
                 onClicked:{
+                    ButtonSignalsHandling.setMode(false)
                     console.log("Txt button clicked")
+                    console.log(ButtonSignalsHandling.mode) // access has to be direct, otherwise it will not work when getMode is used
                 }
                 onPressed: txtImg.opacity = 0.7
                 onReleased: txtImg.opacity = 1.0
@@ -61,7 +63,9 @@ Item{
                 id: imgIconArea
                 anchors.fill: parent
                 onClicked:{
+                    ButtonSignalsHandling.setMode(true)
                     console.log("Img button clicked")
+                    console.log(ButtonSignalsHandling.mode)
                 }
                 onPressed: imgIconImg.opacity = 0.7
                 onReleased: imgIconImg.opacity = 1.0

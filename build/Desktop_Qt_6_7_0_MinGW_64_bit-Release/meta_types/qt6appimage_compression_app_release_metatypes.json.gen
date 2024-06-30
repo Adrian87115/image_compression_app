@@ -40,6 +40,16 @@
                         "access": "public",
                         "name": "modeChanged",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "txtMode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "imgMode",
+                        "returnType": "void"
                     }
                 ],
                 "superClasses": [

@@ -1,7 +1,6 @@
 #include "buttonsignalshandling.h"
 
-ButtonSignalsHandling::ButtonSignalsHandling(QObject *parent){
-}
+ButtonSignalsHandling::ButtonSignalsHandling(QObject *parent): QObject(parent), m_mode(true){}
 
 bool ButtonSignalsHandling::getMode() const{
     return m_mode;

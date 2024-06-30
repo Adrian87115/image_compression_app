@@ -14,9 +14,11 @@ class ButtonSignalsHandling: public QObject{
 
     signals:
         void modeChanged();
+        void txtMode();
+        void imgMode();
 
     private:
-        bool m_mode;
+        bool m_mode; // true - img, false - txt
 };
 
 #endif // BUTTONSIGNALSHANDLING_H

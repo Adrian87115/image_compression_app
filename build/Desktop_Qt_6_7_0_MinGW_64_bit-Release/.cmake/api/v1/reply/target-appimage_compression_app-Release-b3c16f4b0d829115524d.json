@@ -990,15 +990,15 @@
 			"id" : "appimage_compression_app_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "appimage_compression_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "appimage_compression_app_autogen::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 68,
 			"id" : "appimage_compression_app_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "appimage_compression_app_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "appimage_compression_app::@6890427a1f51a3e7e1df",

@@ -32,6 +32,7 @@ qt_add_qml_module(appimage_compression_app
         SOURCES buttonsignalshandling.h buttonsignalshandling.cpp
         SOURCES processedimage.h processedimage.cpp
         SOURCES convertimage.h convertimage.cpp
+        SOURCES restoredimage.h restoredimage.cpp
 )
 
 target_link_libraries(appimage_compression_app

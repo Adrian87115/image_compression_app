@@ -68,6 +68,7 @@ public:
 
     void writeToFileEncoded(vector<vector<string>> data);
     void writeToFileMap();
+    void writeToFileDimensions();
     vector<vector<string>> encode();
 
     // decoding
@@ -87,6 +88,7 @@ public:
     QImage YCbCrToRGB(QImage img_to_convert);
     vector<vector<string>> readFromFileEncodedPath(QString path);
     vector<map<string, int>> readFromFileMapPath(QString path);
+    void readFromFileDimensionsPath(QString path);
     QImage* decodeWithFiles(QString path);
 
 private:

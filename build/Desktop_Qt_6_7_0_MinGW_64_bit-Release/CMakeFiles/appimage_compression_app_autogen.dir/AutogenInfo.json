@@ -1098,6 +1098,12 @@
 			"MU",
 			"EWIEGA46WW/moc_processedimage.cpp",
 			null
+		],
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/restoredimage.h",
+			"MU",
+			"EWIEGA46WW/moc_restoredimage.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1222,6 +1228,11 @@
 		],
 		[
 			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/restoredimage.cpp",
 			"MU",
 			null
 		]

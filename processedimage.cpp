@@ -551,6 +551,16 @@ void ProcessedImage::writeToFileMap(){
     outfile.close();
 }
 
+void ProcessedImage::writeToFileDimensions(){
+    ofstream outfile(img_name.substr(0, img_name.length() - 4) + "_dimensions.txt");
+    if(!outfile.is_open()){
+        cerr << "Error: Unable to open the file" << endl;
+        return;
+    }
+    outfile << width << endl << height << endl << num_blocks_x_luminance << endl << num_blocks_y_luminance << endl << num_blocks_x_chrominance << endl << num_blocks_y_chrominance << endl;
+    outfile.close();
+}
+
 vector<vector<string>> ProcessedImage::encode(){
     QImage ycbcr_img = RGBToYCbCr();
     vector<vector<vector<int>>> downsampled_data = downsampling(ycbcr_img);
@@ -888,7 +898,6 @@ vector<vector<string>> ProcessedImage::readFromFileEncodedPath(QString path){
 
 vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
     path.chop(12);
-    qDebug() << path;
     vector<map<string, int>> codes;
     ifstream infile(path.toStdString() + "_codes.txt");
     if(!infile.is_open()){
@@ -923,7 +932,71 @@ vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
     return codes;
 }
 
+void ProcessedImage::readFromFileDimensionsPath(QString path) {
+    // Remove the last 12 characters from the path
+    path.chop(12);
+    ifstream infile(path.toStdString() + "_dimensions.txt");
+
+    // Check if the file opened successfully
+    if (!infile.is_open()) {
+        cerr << "Error: Unable to open the file" << endl;
+        return;
+    }
+
+    cout << "opened3" << endl;
+
+    // Temporary string to hold each line
+    string line;
+
+    // Read and assign each line to the corresponding variable
+    if (getline(infile, line)) {
+        width = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading width" << endl;
+        return;
+    }
+
+    if (getline(infile, line)) {
+        height = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading height" << endl;
+        return;
+    }
+
+    if (getline(infile, line)) {
+        num_blocks_x_luminance = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading num_blocks_x_luminance" << endl;
+        return;
+    }
+
+    if (getline(infile, line)) {
+        num_blocks_y_luminance = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading num_blocks_y_luminance" << endl;
+        return;
+    }
+
+    if (getline(infile, line)) {
+        num_blocks_x_chrominance = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading num_blocks_x_chrominance" << endl;
+        return;
+    }
+
+    if (getline(infile, line)) {
+        num_blocks_y_chrominance = stoi(line);
+    } else {
+        cerr << "Error: Unexpected end of file while reading num_blocks_y_chrominance" << endl;
+        return;
+    }
+
+    infile.close();
+}
+
 QImage* ProcessedImage::decodeWithFiles(QString path){
+    readFromFileDimensionsPath(path);
+    // read dimensions
     vector<vector<string>> readed_data = readFromFileEncodedPath(path);
     cout << "done1\n";
     vector<map<string, int>> codes = readFromFileMapPath(path);

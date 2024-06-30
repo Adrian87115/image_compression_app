@@ -68,7 +68,7 @@ void ProcessedImage::saveConverted(QImage* img_name, QString path){
         cerr << "Error: Can't save empty image" << endl;
         return;
     }
-    path.chop(4);
+    path.chop(12);
     path += "_output.jpg";
     img_name->save(path);
 }
@@ -505,11 +505,6 @@ vector<vector<string>> ProcessedImage::HuffmanEncoding(vector<vector<int>> rle_d
         HuffmanNode* root = buildHuffmanTree(values, frequencies);
         tree_channels[ch] = root;
         map<int, string> huffmanCodes = getHuffmanCodes(values, frequencies);
-
-        // for(const auto& pair : huffmanCodes){
-        //     cout << "Value: " << pair.first << " Code: " << pair.second << endl;
-        // }
-
         for(int val : rle_data[ch]){
             encoded_channels[ch].push_back(huffmanCodes[val]);
         }
@@ -518,7 +513,7 @@ vector<vector<string>> ProcessedImage::HuffmanEncoding(vector<vector<int>> rle_d
 }
 
 void ProcessedImage::writeToFileEncoded(vector<vector<string>> data){
-    ofstream outfile(img_name + ".txt");
+    ofstream outfile(img_name.substr(0, img_name.length() - 4) + "_encoded.txt");
     if(!outfile.is_open()){
         cerr << "Error: Unable to open the file" << endl;
         return;
@@ -541,7 +536,7 @@ void ProcessedImage::writeToFileMap(){
         generateHuffmanCodeMap(tree_channels[ch], "", tab);
         codes.push_back(tab);
     }
-    ofstream outfile(img_name + "_codes.txt");
+    ofstream outfile(img_name.substr(0, img_name.length() - 4) + "_codes.txt");
     if(!outfile.is_open()){
         cerr << "Error: Unable to open the file" << endl;
         return;
@@ -558,19 +553,12 @@ void ProcessedImage::writeToFileMap(){
 
 vector<vector<string>> ProcessedImage::encode(){
     QImage ycbcr_img = RGBToYCbCr();
-    // cout << "YCbCr converted\n";
     vector<vector<vector<int>>> downsampled_data = downsampling(ycbcr_img);
-    // cout << "Data downsampled\n";
     vector<vector<vector<vector<int>>>> blocks = divideInto8x8(downsampled_data);
-    // cout << "Spplitted into blocks\n";
     vector<vector<vector<vector<float>>>> after_DCT = performDCT(blocks);
-    // cout << "DCT performed\n";
     vector<vector<int>> zigzaged = zigzagScan(after_DCT);
-    // cout << "Zigzag performed\n";
     vector<vector<int>> after_RLE = RLE(zigzaged);
-    // cout << "RLE converted\n";
     vector<vector<string>> huffmaned = HuffmanEncoding(after_RLE);
-    // cout << "Successfully encoded\n";
     return huffmaned;
 }
 
@@ -590,13 +578,8 @@ vector<vector<int>> ProcessedImage::HuffmanDecoding(vector<vector<string>> encod
     vector<vector<int>> decoded_channels(3);
 
     for(int ch = 0; ch < 3; ch++){
-        // printHuffmanTree(tree_channels[ch], "");
         map<string, int> codes;
         generateHuffmanCodeMap(tree_channels[ch], "", codes);
-        // cout << "Channel " << ch << " Huffman Codes:" << endl;
-        // for (const auto& pair : tab) {
-        //     cout << "Code: " << pair.first << " Value: " << pair.second << endl;
-        // }
         for(const string& encoded_str : encoded_data[ch]){
             if(codes.find(encoded_str) != codes.end()){
                 decoded_channels[ch].push_back(codes[encoded_str]);
@@ -842,7 +825,6 @@ QImage ProcessedImage::upscaling(vector<vector<vector<int>>> data){
             }
         }
     }
-
     QImage merged_channels = QImage(width, height, QImage::Format_RGB32);
 
     for(int y = 0; y < height; y++){
@@ -905,7 +887,8 @@ vector<vector<string>> ProcessedImage::readFromFileEncodedPath(QString path){
 }
 
 vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
-    path.chop(4);
+    path.chop(12);
+    qDebug() << path;
     vector<map<string, int>> codes;
     ifstream infile(path.toStdString() + "_codes.txt");
     if(!infile.is_open()){
@@ -940,6 +923,24 @@ vector<map<string, int>> ProcessedImage::readFromFileMapPath(QString path){
     return codes;
 }
 
-QImage* ProcessedImage::decodeWithFiles(){
-
+QImage* ProcessedImage::decodeWithFiles(QString path){
+    vector<vector<string>> readed_data = readFromFileEncodedPath(path);
+    cout << "done1\n";
+    vector<map<string, int>> codes = readFromFileMapPath(path);
+    cout << "done2\n";
+    vector<vector<int>> decoded_huffman = HuffmanDecodingFromFile(readed_data, codes);
+    cout << "done3\n";
+    vector<vector<int>> rle_decoded = RLEDecode(decoded_huffman);
+    cout << "done4\n";
+    vector<vector<vector<vector<int>>>> zigzag_reversed = backToBlocksFromZigzag(rle_decoded);
+    cout << "done5\n";
+    vector<vector<vector<vector<int>>>> dct_reversed = reverseDCT(zigzag_reversed);
+    cout << "done6\n";
+    vector<vector<vector<int>>> blocks_reversed = reverseBlocks(dct_reversed);
+    cout << "done7\n";
+    QImage upscaled = upscaling(blocks_reversed);
+    cout << "done8\n";
+    QImage* color_converted = new QImage(YCbCrToRGB(upscaled));
+    cout << "done9\n";
+    return color_converted;
 }

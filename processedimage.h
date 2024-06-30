@@ -87,6 +87,7 @@ public:
     QImage YCbCrToRGB(QImage img_to_convert);
     vector<vector<string>> readFromFileEncodedPath(QString path);
     vector<map<string, int>> readFromFileMapPath(QString path);
+    QImage* decodeWithFiles(QString path);
 
 private:
     QImage* img = nullptr;

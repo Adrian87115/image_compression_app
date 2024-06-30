@@ -300,6 +300,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshan
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/moc_predefs.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.h
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
@@ -682,7 +683,6 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/moc_predefs.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h
-C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug
@@ -997,8 +997,8 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h
  mdp:C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/moc_predefs.h
  mdp:C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.h
-C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.cpp
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.cpp
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/getfilepath.cpp
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.cpp

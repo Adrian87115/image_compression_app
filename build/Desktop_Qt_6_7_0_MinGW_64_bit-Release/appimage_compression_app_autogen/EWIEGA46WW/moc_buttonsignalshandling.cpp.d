@@ -1,5 +1,6 @@
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/EWIEGA46WW/moc_buttonsignalshandling.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.h \
   C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/moc_predefs.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -34,6 +35,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \

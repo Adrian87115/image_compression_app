@@ -36,6 +36,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt
  C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake
  C:/Program Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
  C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException
  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
@@ -70,6 +71,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h
@@ -2258,6 +2260,7 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA4
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_compilation.cpp.obj
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/appimage_compression_app_autogen/mocs_compilation.cpp
  C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException
  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
@@ -2292,6 +2295,7 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h
@@ -3376,6 +3380,7 @@ CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Rele
 
 CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.cpp
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException
  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
@@ -3410,6 +3415,7 @@ CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h
@@ -3771,6 +3777,7 @@ CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
 
 CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.cpp
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException
  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
@@ -3805,6 +3812,7 @@ CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h
@@ -4492,6 +4500,7 @@ CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj
 CMakeFiles/appimage_compression_app.dir/main.cpp.obj
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp
  C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException
  C:/Qt/6.7.0/mingw_64/include/QtCore/QObject
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h
@@ -4534,6 +4543,7 @@ CMakeFiles/appimage_compression_app.dir/main.cpp.obj
  C:/Qt/6.7.0/mingw_64/include/QtCore/qelapsedtimer.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qeventloop.h
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h
  C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h

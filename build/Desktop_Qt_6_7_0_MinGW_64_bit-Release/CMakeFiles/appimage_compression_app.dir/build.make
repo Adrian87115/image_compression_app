@@ -159,6 +159,8 @@ appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/
 appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/play_white.png
 appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/img_icon_white.png
 appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/txt_white.png
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml
 appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/6.7.0/mingw_64/./bin/rcc.exe
 appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp: C:/Qt/6.7.0/mingw_64/./bin/rcc.exe
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Automatic RCC for qml.qrc"

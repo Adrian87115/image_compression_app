@@ -35,6 +35,7 @@ appimage_compression_app_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.ex
   C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake \
   C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -69,6 +70,7 @@ appimage_compression_app_autogen/timestamp: C:/Program\ Files/CMake/bin/cmake.ex
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \
@@ -2252,6 +2254,7 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA4
 
 CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_compilation.cpp.obj: appimage_compression_app_autogen/mocs_compilation.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -2286,6 +2289,7 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \
@@ -3365,6 +3369,7 @@ CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Rele
 CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/.rcc/qrc_qmake_image_compression_app.cpp.obj: .rcc/qrc_qmake_image_compression_app.cpp
 
 CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/buttonsignalshandling.cpp \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -3399,6 +3404,7 @@ CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: C:/Users/
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \
@@ -3759,6 +3765,7 @@ CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj: C:/Users/
   C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h
 
 CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/convertimage.cpp \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -3793,6 +3800,7 @@ CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj: C:/Users/adria/Des
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \
@@ -4478,6 +4486,7 @@ CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj: C:/Users/adria/Desk
 
 CMakeFiles/appimage_compression_app.dir/main.cpp.obj: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/main.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -4520,6 +4529,7 @@ CMakeFiles/appimage_compression_app.dir/main.cpp.obj: C:/Users/adria/Desktop/Adr
   C:/Qt/6.7.0/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qeventloop.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \
@@ -5344,9 +5354,9 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/loca
 
 C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake:
 
-C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake:
-
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake:
+
+C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake:
 
 C:/Qt/6.7.0/mingw_64/include/QtGui/qpixelformat.h:
 
@@ -5441,6 +5451,12 @@ C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTarget
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h:
 
 C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:
+
+C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake:
+
+C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginConfig.cmake:
+
+C:/Qt/6.7.0/mingw_64/include/QtCore/QException:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake:
 
@@ -5653,6 +5669,10 @@ C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPriva
 C:/Qt/6.7.0/mingw_64/include/QtCore/qswap.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h:
+
+C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake:
+
+C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
@@ -6612,10 +6632,6 @@ C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network/Qt6QNLMNIPluginTargets.cmake:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake:
 
-C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake:
-
-C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network/Qt6QSchannelBackendPluginConfig.cmake:
-
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlAdditionalTargetInfo.cmake:
@@ -7254,8 +7270,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qfile.h:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginConfig.cmake:
 
-C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
-
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginConfig.cmake:
@@ -7334,8 +7348,6 @@ C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlus
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsVersionlessTargets.cmake:
 
-C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake:
-
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlModels/Qt6QmlModelsAdditionalTargetInfo.cmake:
@@ -7353,8 +7365,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets-relwithdebinfo.cmake:
 
 C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets.cmake:
-
-C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtQml/qtqmlexports.h:
 
@@ -7521,6 +7531,10 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstring:
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ctime:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar:
+
+C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
+
+C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception:
 

@@ -29,17 +29,22 @@ QString ConvertImage::performConversion(bool mode, QString path) {
     if(path.isEmpty()){
         return "Error: Invalid path";
     }
-    try{
-        QString out;
-        if(mode){
+    QString out;
+    if(mode){
+        if(path.right(3) == "jpg" || path.right(3) == "png"){
             out = encodeImage(path);
         }else{
-            out = decodeFiles(path);
+            out = "Error: Invalid file type";
         }
-        return out;
-    }catch(const std::exception& e){
-        return QString("Error: ") + e.what();
-    }catch (...){
-        return "Error: Problem with the input file";
+
+    }else{
+        if(path.right(12) == "_encoded.txt"){
+            out = decodeFiles(path);
+        }else{
+            out = "Error: Invalid file name";
+        }
     }
+    return out;
+
+    return "Error: Problem with the input file";
 }

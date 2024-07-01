@@ -12,7 +12,9 @@
 		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml",
 		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/play_white.png",
 		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/img_icon_white.png",
-		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/txt_white.png"
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/txt_white.png",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml"
 	],
 	"LOCK_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/CMakeFiles/appimage_compression_app_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,

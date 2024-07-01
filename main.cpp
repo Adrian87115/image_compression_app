@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/image_compression_app/Main.qml"));
-    QObject::connect(&engine, &QQmlApplicationEngine::objectCreationFailed, &app, []() { QCoreApplication::exit(-1); }, Qt::QueuedConnection);
+    QObject::connect(&engine, &QQmlApplicationEngine::objectCreationFailed, &app, []() {QCoreApplication::exit(-1); }, Qt::QueuedConnection);
     engine.load(url);
 
     QQmlContext* context(engine.rootContext());
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
     context->setContextProperty("ConvertImage", &m_image_converter);
 
     // QString result2 = m_image_converter.performConversion(true, QString::fromStdString("C:/Users/adria/Desktop/sunset.png"));
-    // QString result2 = m_image_converter.performConversion(false, QString::fromStdString("C:/Users/adria/Desktop/sunset_encoded.txt"));
+    // QString result2 = m_image_converter.performConversion(false, QString::fromStdString("C:/Users/adria/Desktop/sunset_codes.txt"));
     // qDebug() << result2;
 
     return app.exec();

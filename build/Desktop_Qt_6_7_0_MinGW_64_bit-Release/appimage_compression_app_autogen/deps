@@ -32,6 +32,7 @@ appimage_compression_app_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/QDebug \
+	C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/QObject \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -66,6 +67,7 @@ appimage_compression_app_autogen/timestamp: \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qdatastream.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qdebug.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qendian.h \
+	C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qexceptionhandling.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qflags.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/qfloat16.h \

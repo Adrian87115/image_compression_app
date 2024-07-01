@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QWidget>
+#include <QException>
 #include "processedimage.h"
 
 class ConvertImage: public QObject{

@@ -4,5 +4,7 @@
         <file>resources/img/img_icon_white.png</file>
         <file>resources/img/txt_white.png</file>
         <file>resources/img/play_white.png</file>
+        <file>resources/right_side/RightSide.qml</file>
+        <file>resources/left_side/LeftSide.qml</file>
     </qresource>
 </RCC>

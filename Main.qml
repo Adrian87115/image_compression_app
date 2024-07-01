@@ -4,7 +4,7 @@ import QtQuick.Layouts
 import "resources/right_side"
 import "resources/left_side"
 
-Window {
+Window{
     width: 600
     height: 600
     visible: true

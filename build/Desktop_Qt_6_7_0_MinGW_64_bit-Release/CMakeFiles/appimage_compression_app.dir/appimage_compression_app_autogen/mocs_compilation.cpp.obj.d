@@ -364,6 +364,8 @@ CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/mocs_co
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QException \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qexception.h \
  C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/processedimage.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/QImage \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qimage.h \

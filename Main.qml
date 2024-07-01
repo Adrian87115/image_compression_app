@@ -10,6 +10,9 @@ Window{
     visible: true
     title: qsTr("Image Compression App")
 
+    property alias left_s: left_s
+    property alias right_s: right_s
+
     LeftSide{
         id: left_s
         anchors.left: parent.left

@@ -1,8 +1,9 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Controls
 
 Item{
     id: itm2
+
     Rectangle{
         id: taskArea
         height: parent.height
@@ -17,6 +18,7 @@ Item{
             width: parent.width * 0.5
             fillMode: Image.PreserveAspectFit
             source: "qrc:/resources/img/play_white.png"
+
             MouseArea{
                 id: playButtonArea
                 anchors.fill: parent
@@ -24,8 +26,10 @@ Item{
                     console.log("Play button clicked")
                     console.log(ButtonSignalsHandling.mode)
                     console.log(GetFilePath.stored_path)
-                    let result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path);
+                    var result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path).toString();
                     console.log(result)
+                    left_s.statusText = result;
+
                 }
                 onPressed: playImg.opacity = 0.7
                 onReleased: playImg.opacity = 1.0
@@ -41,6 +45,7 @@ Item{
             width: parent.width * 0.5
             fillMode: Image.PreserveAspectFit
             source: "qrc:/resources/img/txt_white.png" // to make it work also set(CMAKE_AUTORCC ON) had to be added to CMake
+
             MouseArea{
                 id: txtImgArea
                 anchors.fill: parent
@@ -66,6 +71,7 @@ Item{
             fillMode: Image.PreserveAspectFit
             source: "qrc:/resources/img/img_icon_white.png"
             opacity: 0.5
+
             MouseArea{
                 id: imgIconArea
                 anchors.fill: parent

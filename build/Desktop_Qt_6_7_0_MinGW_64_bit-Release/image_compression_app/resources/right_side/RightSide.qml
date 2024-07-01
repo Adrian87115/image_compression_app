@@ -1,8 +1,9 @@
-import QtQuick 2.15
+import QtQuick
 import QtQuick.Controls
 
 Item{
     id: itm2
+
     Rectangle{
         id: taskArea
         height: parent.height
@@ -24,8 +25,10 @@ Item{
                     console.log("Play button clicked")
                     console.log(ButtonSignalsHandling.mode)
                     console.log(GetFilePath.stored_path)
-                    let result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path);
+                    var result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path).toString();
                     console.log(result)
+                    left_s.statusText = result;
+
                 }
                 onPressed: playImg.opacity = 0.7
                 onReleased: playImg.opacity = 1.0

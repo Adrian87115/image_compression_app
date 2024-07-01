@@ -4,6 +4,7 @@ import QtQuick.Controls
 
 Item{
     id: itm1
+    property alias statusText: dropAreaStatus.text
 
     Rectangle{
         id: dropAreaContainer

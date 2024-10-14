@@ -28,8 +28,7 @@ Item{
                     console.log(GetFilePath.stored_path)
                     var result = ConvertImage.performConversion(ButtonSignalsHandling.mode, GetFilePath.stored_path).toString();
                     console.log(result)
-                    left_s.statusText = result;
-
+                    leftS.statusText = result;
                 }
                 onPressed: playImg.opacity = 0.7
                 onReleased: playImg.opacity = 1.0

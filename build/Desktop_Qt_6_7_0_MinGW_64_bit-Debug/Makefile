@@ -329,6 +329,78 @@ appimage_compression_app_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app_autogen.dir\build.make CMakeFiles/appimage_compression_app_autogen.dir/build
 .PHONY : appimage_compression_app_autogen/fast
 
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.obj: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.obj
+
+# target to build an object file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.obj
+
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.i: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.i
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.i
+
+# target to preprocess a source file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.i
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.i
+
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.s: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.s
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.s
+
+# target to generate assembly for a file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.s
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.cpp.s
+
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.obj: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.obj
+
+# target to build an object file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.obj
+
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.i: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.i
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.i
+
+# target to preprocess a source file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.i
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.i
+
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.s: 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.s
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.s
+
+# target to generate assembly for a file
+236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.s
+.PHONY : 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.cpp.s
+
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.obj: appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.obj
+
+# target to build an object file
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.obj
+
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.i: appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.s: appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
 appimage_compression_app_autogen/mocs_compilation.obj: appimage_compression_app_autogen/mocs_compilation.cpp.obj
 .PHONY : appimage_compression_app_autogen/mocs_compilation.obj
 
@@ -473,29 +545,77 @@ build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.c
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.s
 .PHONY : build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.cpp.s
 
-file_input.obj: file_input.cpp.obj
-.PHONY : file_input.obj
+buttonsignalshandling.obj: buttonsignalshandling.cpp.obj
+.PHONY : buttonsignalshandling.obj
 
 # target to build an object file
-file_input.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.obj
-.PHONY : file_input.cpp.obj
+buttonsignalshandling.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.obj
+.PHONY : buttonsignalshandling.cpp.obj
 
-file_input.i: file_input.cpp.i
-.PHONY : file_input.i
+buttonsignalshandling.i: buttonsignalshandling.cpp.i
+.PHONY : buttonsignalshandling.i
 
 # target to preprocess a source file
-file_input.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.i
-.PHONY : file_input.cpp.i
+buttonsignalshandling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.i
+.PHONY : buttonsignalshandling.cpp.i
 
-file_input.s: file_input.cpp.s
-.PHONY : file_input.s
+buttonsignalshandling.s: buttonsignalshandling.cpp.s
+.PHONY : buttonsignalshandling.s
 
 # target to generate assembly for a file
-file_input.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/file_input.cpp.s
-.PHONY : file_input.cpp.s
+buttonsignalshandling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/buttonsignalshandling.cpp.s
+.PHONY : buttonsignalshandling.cpp.s
+
+convertimage.obj: convertimage.cpp.obj
+.PHONY : convertimage.obj
+
+# target to build an object file
+convertimage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.obj
+.PHONY : convertimage.cpp.obj
+
+convertimage.i: convertimage.cpp.i
+.PHONY : convertimage.i
+
+# target to preprocess a source file
+convertimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.i
+.PHONY : convertimage.cpp.i
+
+convertimage.s: convertimage.cpp.s
+.PHONY : convertimage.s
+
+# target to generate assembly for a file
+convertimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/convertimage.cpp.s
+.PHONY : convertimage.cpp.s
+
+getfilepath.obj: getfilepath.cpp.obj
+.PHONY : getfilepath.obj
+
+# target to build an object file
+getfilepath.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.obj
+.PHONY : getfilepath.cpp.obj
+
+getfilepath.i: getfilepath.cpp.i
+.PHONY : getfilepath.i
+
+# target to preprocess a source file
+getfilepath.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.i
+.PHONY : getfilepath.cpp.i
+
+getfilepath.s: getfilepath.cpp.s
+.PHONY : getfilepath.s
+
+# target to generate assembly for a file
+getfilepath.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/getfilepath.cpp.s
+.PHONY : getfilepath.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -520,6 +640,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+processedimage.obj: processedimage.cpp.obj
+.PHONY : processedimage.obj
+
+# target to build an object file
+processedimage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.obj
+.PHONY : processedimage.cpp.obj
+
+processedimage.i: processedimage.cpp.i
+.PHONY : processedimage.i
+
+# target to preprocess a source file
+processedimage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.i
+.PHONY : processedimage.cpp.i
+
+processedimage.s: processedimage.cpp.s
+.PHONY : processedimage.s
+
+# target to generate assembly for a file
+processedimage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appimage_compression_app.dir\build.make CMakeFiles/appimage_compression_app.dir/processedimage.cpp.s
+.PHONY : processedimage.cpp.s
 
 # Help Target
 help:
@@ -546,6 +690,15 @@ help:
 	@echo ... appimage_compression_app_qmltyperegistration
 	@echo ... appimage_compression_app
 	@echo ... appimage_compression_app_tooling
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.obj
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.i
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/left_side/LeftSide_qml.s
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.obj
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.i
+	@echo ... 236c3c772fb4d82bd451ea90914ab954/appimage_compression_app_resources/right_side/RightSide_qml.s
+	@echo ... appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.obj
+	@echo ... appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.i
+	@echo ... appimage_compression_app_autogen/EWIEGA46WW/qrc_qml.s
 	@echo ... appimage_compression_app_autogen/mocs_compilation.obj
 	@echo ... appimage_compression_app_autogen/mocs_compilation.i
 	@echo ... appimage_compression_app_autogen/mocs_compilation.s
@@ -564,12 +717,21 @@ help:
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.obj
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.i
 	@echo ... build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qrc_qmake_image_compression_app.s
-	@echo ... file_input.obj
-	@echo ... file_input.i
-	@echo ... file_input.s
+	@echo ... buttonsignalshandling.obj
+	@echo ... buttonsignalshandling.i
+	@echo ... buttonsignalshandling.s
+	@echo ... convertimage.obj
+	@echo ... convertimage.i
+	@echo ... convertimage.s
+	@echo ... getfilepath.obj
+	@echo ... getfilepath.i
+	@echo ... getfilepath.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... processedimage.obj
+	@echo ... processedimage.i
+	@echo ... processedimage.s
 .PHONY : help
 
 

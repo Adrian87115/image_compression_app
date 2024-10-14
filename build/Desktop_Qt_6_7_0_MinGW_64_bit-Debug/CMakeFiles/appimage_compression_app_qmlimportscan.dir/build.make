@@ -71,6 +71,8 @@ CMakeFiles/appimage_compression_app_qmlimportscan: .qt_plugins/Qt6_QmlPlugins_Im
 .qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake: .rcc/qmake_image_compression_app.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake: .rcc/appimage_compression_app_raw_qml_0.qrc
 .qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml
+.qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.cmake: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appimage_compression_app"
 	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && call C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.0/mingw_64/./bin/qmlimportscanner.exe @C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appimage_compression_app.rsp
 

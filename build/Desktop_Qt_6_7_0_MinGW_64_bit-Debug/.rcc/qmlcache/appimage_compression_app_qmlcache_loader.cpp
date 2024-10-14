@@ -12,6 +12,20 @@ namespace _image_compression_app_Main_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _image_compression_app_resources_right_side_RightSide_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _image_compression_app_resources_left_side_LeftSide_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -27,6 +41,8 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/image_compression_app/Main.qml"), &QmlCacheGeneratedCode::_image_compression_app_Main_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/image_compression_app/resources/right_side/RightSide.qml"), &QmlCacheGeneratedCode::_image_compression_app_resources_right_side_RightSide_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/image_compression_app/resources/left_side/LeftSide.qml"), &QmlCacheGeneratedCode::_image_compression_app_resources_left_side_LeftSide_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

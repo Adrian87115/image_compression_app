@@ -495,6 +495,7 @@ map<int, string> ProcessedImage::getHuffmanCodes(vector<int> values, vector<int>
 
 vector<vector<string>> ProcessedImage::HuffmanEncoding(vector<vector<int>> rle_data){
     vector<vector<string>> encoded_channels(rle_data.size());
+
     for(int ch = 0; ch < rle_data.size(); ch++){
         map<int, int> freq_map;
         for(int val : rle_data[ch]){
@@ -817,6 +818,7 @@ QImage ProcessedImage::upscaling(vector<vector<vector<int>>> data){
     upscaled_channels[0] = QImage(width, height, QImage::Format_RGB32);
     upscaled_channels[1] = QImage(width, height, QImage::Format_RGB32);
     upscaled_channels[2] = QImage(width, height, QImage::Format_RGB32);
+
     for(int y = 0; y < height; y++){
         for(int x = 0; x < width; x++){
             int luminance = data[0][y][x];

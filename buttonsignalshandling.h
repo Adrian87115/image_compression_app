@@ -20,5 +20,4 @@ class ButtonSignalsHandling: public QObject{
     private:
         bool mode; // true - img, false - txt
 };
-
 #endif // BUTTONSIGNALSHANDLING_H

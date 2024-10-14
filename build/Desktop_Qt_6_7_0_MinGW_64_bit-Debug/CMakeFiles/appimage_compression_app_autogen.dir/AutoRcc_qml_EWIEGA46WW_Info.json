@@ -1,0 +1,30 @@
+{
+	"BUILD_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app",
+	"CMAKE_SOURCE_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/play_white.png",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/img_icon_white.png",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/img/txt_white.png",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml",
+		"C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml"
+	],
+	"LOCK_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/appimage_compression_app_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/appimage_compression_app_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/qml.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}

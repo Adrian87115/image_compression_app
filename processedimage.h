@@ -18,7 +18,6 @@ class ProcessedImage{
 public:
     ProcessedImage(string img_name);
     ~ProcessedImage();
-
     void loadImage(string img_name);
     void displayImage();
     void displayOther(QImage* other_img);
@@ -103,5 +102,4 @@ private:
     int num_blocks_y_chrominance;
     vector<HuffmanNode*> tree_channels = {nullptr, nullptr, nullptr};
 };
-
 #endif // PROCESSED_IMAGE_H

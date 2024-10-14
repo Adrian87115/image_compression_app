@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 31)
+set(qml_import_scanner_imports_count 33)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlMetaPlugin;LINKTARGET;Qt6::QmlMeta;NAME;QtQml;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQml;PLUGIN;qmlmetaplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml.Base;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQml/Base;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/Base/;RELATIVEPATH;QtQml/Base;TYPE;module;")
@@ -28,6 +28,8 @@ set(qml_import_scanner_import_25 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin
 set(qml_import_scanner_import_26 "CLASSNAME;QtQuickLayoutsPlugin;LINKTARGET;Qt6::qquicklayoutsplugin;NAME;QtQuick.Layouts;PATH;C:/Qt/6.7.0/mingw_64/qml/QtQuick/Layouts;PLUGIN;qquicklayoutsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Layouts/;RELATIVEPATH;QtQuick/Layouts;TYPE;module;")
 set(qml_import_scanner_import_27 "NAME;resources/right_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml/resources/right_side;TYPE;directory;")
 set(qml_import_scanner_import_28 "NAME;resources/left_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml/resources/left_side;TYPE;directory;")
-set(qml_import_scanner_import_29 "NAME;resources/right_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/image_compression_app/Main.qml/resources/right_side;TYPE;directory;")
-set(qml_import_scanner_import_30 "NAME;resources/left_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/image_compression_app/Main.qml/resources/left_side;TYPE;directory;")
+set(qml_import_scanner_import_29 "NAME;resources/right_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/Main.qml/resources/right_side;TYPE;directory;")
+set(qml_import_scanner_import_30 "NAME;resources/left_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/Main.qml/resources/left_side;TYPE;directory;")
+set(qml_import_scanner_import_31 "NAME;resources/right_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/image_compression_app/Main.qml/resources/right_side;TYPE;directory;")
+set(qml_import_scanner_import_32 "NAME;resources/left_side;PATH;C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Release/image_compression_app/Main.qml/resources/left_side;TYPE;directory;")
 

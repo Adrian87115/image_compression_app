@@ -25,7 +25,7 @@ QString ConvertImage::decodeFiles(QString path){
     return "Image decoded";
 }
 
-QString ConvertImage::performConversion(bool mode, QString path) {
+QString ConvertImage::performConversion(bool mode, QString path){
     if(path.isEmpty()){
         return "Error: Invalid path";
     }
@@ -36,7 +36,6 @@ QString ConvertImage::performConversion(bool mode, QString path) {
         }else{
             out = "Error: Invalid file type";
         }
-
     }else{
         if(path.right(12) == "_encoded.txt"){
             out = decodeFiles(path);
@@ -45,6 +44,4 @@ QString ConvertImage::performConversion(bool mode, QString path) {
         }
     }
     return out;
-
-    return "Error: Problem with the input file";
 }

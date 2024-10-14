@@ -69,7 +69,22 @@ image_compression_app/Main.qml: C:/Users/adria/Desktop/Adrian/projects/Qt/image_
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying Main.qml to C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/Main.qml"
 	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/Main.qml
 
+image_compression_app/resources/right_side/RightSide.qml: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Copying resources/right_side/RightSide.qml to C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/resources/right_side/RightSide.qml"
+	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/resources/right_side/RightSide.qml
+
+image_compression_app/resources/left_side/LeftSide.qml: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Copying resources/left_side/LeftSide.qml to C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/resources/left_side/LeftSide.qml"
+	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/resources/left_side/LeftSide.qml
+
+image_compression_app/qml.qrc: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/qml.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Copying qml.qrc to C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/qml.qrc"
+	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/qml.qrc C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/image_compression_app/qml.qrc
+
 appimage_compression_app_tooling: image_compression_app/Main.qml
+appimage_compression_app_tooling: image_compression_app/qml.qrc
+appimage_compression_app_tooling: image_compression_app/resources/left_side/LeftSide.qml
+appimage_compression_app_tooling: image_compression_app/resources/right_side/RightSide.qml
 appimage_compression_app_tooling: CMakeFiles/appimage_compression_app_tooling.dir/build.make
 .PHONY : appimage_compression_app_tooling
 

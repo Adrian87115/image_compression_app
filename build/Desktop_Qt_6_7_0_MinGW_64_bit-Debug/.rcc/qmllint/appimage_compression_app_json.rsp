@@ -8,5 +8,7 @@ C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt
 --resource
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/appimage_compression_app_raw_qml_0.qrc
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml
+C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml
 --json
 C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/appimage_compression_app_qmllint.json

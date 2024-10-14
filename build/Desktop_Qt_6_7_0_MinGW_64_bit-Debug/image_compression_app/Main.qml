@@ -1,54 +1,36 @@
-ApplicationWindow {
+import QtQuick
+import QtQuick.Controls
+import QtQuick.Layouts
+import "resources/right_side"
+import "resources/left_side"
+
+Window{
+    width: 600
+    height: 600
     visible: true
-    width: 640
-    height: 480
-    title: qsTr("Drag and Drop Example")
+    title: qsTr("Image Compression App")
 
-    Rectangle {
-        id: dropArea
-        width: 400
-        height: 300
-        anchors.centerIn: parent
-        color: "lightgray"
-        border.color: "gray"
-        border.width: 2
+    property alias left_s: left_s
+    property alias right_s: right_s
 
-        Text {
-            id: dropText
-            text: "Drag and drop a file here"
-            anchors.centerIn: parent
-        }
-
-        // Enable drag-and-drop
-        Drag.active: dropArea.containsDrag
-        Drag.hotSpot.x: drag.width / 2
-        Drag.hotSpot.y: drag.height / 2
-
-        // Handle drag and drop events
-        DragEnterEvent: {
-            accepted = true
-            dropArea.color = "lightblue"
-        }
-
-        DragMoveEvent: {
-            accepted = true
-        }
-
-        DragLeaveEvent: {
-            dropArea.color = "lightgray"
-        }
-
-        DropEvent: {
-            dropArea.color = "lightgray"
-            var mimeData = drag.mimeData
-            if (mimeData.hasUrls) {
-                var url = mimeData.urls[0].toString()
-                dropText.text = "Dropped file: " + url
-                filePath = url
-            }
-        }
+    LeftSide{
+        id: left_s
+        anchors.left: parent.left
+        width: parent.width / 10 * 9
+        height: parent.height
     }
 
-    // Variable to store the file path
-    property string filePath: ""
+    RightSide{
+        id: right_s
+        width: parent.width / 10
+        height: parent.height
+        anchors.right: parent.right
+    }
+
+
 }
+
+// https://www.flaticon.com/
+// https://www.flaticon.com/free-icons/picture
+// https://www.flaticon.com/free-icons/txt
+// https://www.flaticon.com/free-icons/play-button

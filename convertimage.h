@@ -15,5 +15,4 @@ class ConvertImage: public QObject{
         QString decodeFiles(QString path);
         Q_INVOKABLE QString performConversion(bool mode, QString path);
 };
-
 #endif // CONVERTIMAGE_H

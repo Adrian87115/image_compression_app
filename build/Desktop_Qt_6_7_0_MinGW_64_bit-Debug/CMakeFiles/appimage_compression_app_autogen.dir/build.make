@@ -68,6 +68,7 @@ include CMakeFiles/appimage_compression_app_autogen.dir/progress.make
 CMakeFiles/appimage_compression_app_autogen: appimage_compression_app_autogen/timestamp
 
 appimage_compression_app_autogen/timestamp: C:/Qt/6.7.0/mingw_64/./bin/moc.exe
+appimage_compression_app_autogen/timestamp: C:/Qt/6.7.0/mingw_64/./bin/uic.exe
 appimage_compression_app_autogen/timestamp: CMakeFiles/appimage_compression_app_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target appimage_compression_app"
 	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/appimage_compression_app_autogen.dir/AutogenInfo.json Debug

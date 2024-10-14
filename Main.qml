@@ -10,27 +10,20 @@ Window{
     visible: true
     title: qsTr("Image Compression App")
 
-    property alias left_s: left_s
-    property alias right_s: right_s
+    property alias leftS: leftS
+    property alias rightS: rightS
 
     LeftSide{
-        id: left_s
+        id: leftS
         anchors.left: parent.left
         width: parent.width / 10 * 9
         height: parent.height
     }
 
     RightSide{
-        id: right_s
+        id: rightS
         width: parent.width / 10
         height: parent.height
         anchors.right: parent.right
     }
-
-
 }
-
-// https://www.flaticon.com/
-// https://www.flaticon.com/free-icons/picture
-// https://www.flaticon.com/free-icons/txt
-// https://www.flaticon.com/free-icons/play-button

@@ -10,8 +10,8 @@ class GetFilePath: public QObject{
 
     public:
         explicit GetFilePath(QObject *parent = nullptr);
-        QString getPath() const; // apparently this has to be a constant
-        Q_INVOKABLE void setPath(QString newPath); // so for some fucking unknown reason it will not work without Q_INVOKABLE, even though in tutorials it is not added
+        QString getPath() const;
+        Q_INVOKABLE void setPath(QString newPath);
 
     signals:
         void pathChanged();

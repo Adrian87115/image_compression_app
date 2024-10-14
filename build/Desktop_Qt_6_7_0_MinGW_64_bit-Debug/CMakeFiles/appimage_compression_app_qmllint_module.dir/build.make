@@ -67,6 +67,8 @@ include CMakeFiles/appimage_compression_app_qmllint_module.dir/progress.make
 
 CMakeFiles/appimage_compression_app_qmllint_module: C:/Qt/6.7.0/mingw_64/bin/qmllint.exe
 CMakeFiles/appimage_compression_app_qmllint_module: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/Main.qml
+CMakeFiles/appimage_compression_app_qmllint_module: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/right_side/RightSide.qml
+CMakeFiles/appimage_compression_app_qmllint_module: C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/resources/left_side/LeftSide.qml
 CMakeFiles/appimage_compression_app_qmllint_module: .rcc/qmllint/appimage_compression_app_module.rsp
 	cd /d C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app && call C:\Users\adria\Desktop\Adrian\projects\Qt\image_compression_app\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.0/mingw_64/bin/qmllint.exe @C:/Users/adria/Desktop/Adrian/projects/Qt/image_compression_app/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.rcc/qmllint/appimage_compression_app_module.rsp
 

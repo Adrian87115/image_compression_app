@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "ButtonSignalsHandling",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newMode",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setMode",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "mode",
+                    "notify": "modeChanged",
+                    "read": "getMode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setMode"
+                }
+            ],
+            "qualifiedClassName": "ButtonSignalsHandling",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "modeChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "buttonsignalshandling.h",
+    "outputRevision": 68
+}

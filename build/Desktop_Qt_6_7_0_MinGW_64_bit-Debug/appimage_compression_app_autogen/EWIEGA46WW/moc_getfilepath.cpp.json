@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "GetFilePath",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "newPath",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setPath",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "stored_path",
+                    "notify": "pathChanged",
+                    "read": "getPath",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setPath"
+                }
+            ],
+            "qualifiedClassName": "GetFilePath",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "pathChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "getfilepath.h",
+    "outputRevision": 68
+}

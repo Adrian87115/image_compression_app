@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\appimage_compression_app.dir/objects.a
-C:\Qt\Tools\mingw1120_64\bin\ar.exe qc CMakeFiles\appimage_compression_app.dir/objects.a @CMakeFiles\appimage_compression_app.dir\objects1.rsp
-C:\Qt\Tools\mingw1120_64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\appimage_compression_app.dir/objects.a -Wl,--no-whole-archive -o appimage_compression_app.exe -Wl,--out-implib,libappimage_compression_app.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\appimage_compression_app.dir\linkLibs.rsp
